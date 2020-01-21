@@ -16,4 +16,19 @@
  		return 
  	}
  	
+# Call the function with arguments Ali and Azhari
  	 fullname Ali Azhari
+
+# Another function with arguments
+
+    percentage() {
+
+        amount=$1
+        rate=$2
+        interest=$((amount*rate/100))
+
+        echo "The interest on the amount $amount is $interest"
+    }
+
+# Call the function with arguments amount and rate
+    percentage 2000 20
