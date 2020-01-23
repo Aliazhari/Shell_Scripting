@@ -11,13 +11,13 @@
     declare -r PASS=1234
 
   	read -p "What is your username? " username
-  	read -p "What is your passcode" passcode
+  	read -sp "What is your passcode? " passcode
     
 # Conditions should be within []
 # Include a space after [ and before ]
 # Integer Comparisons: eq, ne, le, lt, ge, gt
 
-
+    echo ""
     if [ $username == $USER ] && [ $passcode -eq $PASS ]
     then
         echo "Congratulations!!"
