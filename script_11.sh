@@ -24,3 +24,10 @@
     else
         echo "Too bad!!"
     fi
+
+    read -p "Type a number: " num
+# You can use logical operators like &&, || and !
+# Also,  there is a semicolon after the if condition, and that's because the word then is in the same line
+ 	if (( ((num > 0)) && ((num < 11)) )); then
+ 		echo "$num is between 1 and 10"
+ 	fi
