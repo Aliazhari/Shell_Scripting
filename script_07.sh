@@ -10,5 +10,4 @@
 cat << END
 This line will be printed exactly in the same
 format as it is in this file
-	
 END
