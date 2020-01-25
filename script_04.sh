@@ -5,6 +5,7 @@
 # ****************************************** 
 
 # Shorthand arithmetic +=, -=, *=, /=
+
 	num=2
 	let num+=6
 	echo "num is now $num"
