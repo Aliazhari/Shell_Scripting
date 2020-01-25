@@ -5,6 +5,7 @@
 # ****************************************** 
 
 # Shorthand increment and decrement
+
     num=10
 	echo "num++ = $(( num++ ))"
 	echo "++num = $(( ++num ))"
