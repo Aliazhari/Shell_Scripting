@@ -4,6 +4,7 @@
 #  File : script_02.sh
 # ****************************************** 
 
+
 # Declaring a Constant
 	declare -r NUMBER1=30
 	
