@@ -4,6 +4,7 @@
 #  File : script_17.sh
 # ****************************************** 
 
+
 # Create file
 
 read -p "Type a filename: " filename
