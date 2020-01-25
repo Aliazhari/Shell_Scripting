@@ -5,6 +5,7 @@
 # ****************************************** 
 
 # Using Python to operate on float numbers.
+
     num1=1.2
     num2=2.5
     num3=$(python -c "print $num1+$num2")
