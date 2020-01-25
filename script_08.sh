@@ -5,6 +5,7 @@
 # ****************************************** 
 
  	# Define function
+	 
  	current_date() {
  		
  		# Get current date and time
